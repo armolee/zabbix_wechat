@@ -15,5 +15,12 @@
 3、事先将数据表zabbix.graphs_items中数据导出至/tmp/zabbix.txt  
     # /usr/bin/mysql -h127.0.0.1 -uzabbix -pzabbix@123 -e "select graphid,itemid from zabbix.graphs_items" > /tmp/zabbix.txt  
 4、image中填入zabbix登录账号密码  
-5、wechat.py中填入企业微信的corpid、secret、agentid即可
+5、wechat.py中填入企业微信的corpid、secret、agentid即可  
+
+图文告警图示  
+![image](https://github.com/armolee/zabbix_wechat/blob/master/image_alert.png)  
+
+卡片告警图示  
+![image](https://github.com/armolee/zabbix_wechat/blob/master/card_alert.png)  
+
 
